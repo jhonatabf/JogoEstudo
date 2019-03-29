@@ -339,7 +339,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 456a7b13e08cacc4bb2e9744bf1cc46b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -359,8 +359,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332634952}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.7, y: -0.27088457, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: -8.177, y: -1.26, z: 0}
+  m_LocalScale: {x: 0.2094464, y: 0.2094464, z: 0.2094464}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -1167,9 +1167,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cb30ec6916d83543983e5c4cc0019b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadeCenario: -0.7
-  limiteCenario: -4
-  spawCenario: 4
+  velocidadeCenario: -2.7
+  limiteCenario: -25
+  spawCenario: 25
   alturaCenario: 2
 --- !u!50 &1835191456
 Rigidbody2D:

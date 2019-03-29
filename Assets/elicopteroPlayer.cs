@@ -24,6 +24,20 @@ public class elicopteroPlayer : MonoBehaviour
             }
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             GetComponent<Rigidbody2D>().AddForce(forcaImpulso);
+            Vector2 limites = Camera.main.WorldToScreenPoint(transform.position);
+            if(limites.y <= 0){                                  
+                
+            }
         }
+
+        Vector2 limite = Camera.main.WorldToScreenPoint(transform.position);
+        if(limite.y <= 0 || limite.y > Screen.height){
+                Vector2 novoY = transform.position;
+                novoY.y = 0f;
+                transform.position = novoY;
+                inicioJogo = false;
+                GetComponent<Rigidbody2D>().simulated = false;
+        }
+            
     }
 }
